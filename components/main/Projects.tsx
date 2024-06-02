@@ -8,6 +8,7 @@ import {
   slideInFromRight,
   slideInFromTop,
 } from "@/utils/motion";
+
 import Card from "../sub/card";
 import { TypeAnimation } from "react-type-animation";
 const Projects = () => {

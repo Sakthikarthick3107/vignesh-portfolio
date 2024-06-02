@@ -23,19 +23,19 @@ const Navbar = () => {
 
         <div className="opacity-0 md:opacity-100 w-1/2 h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto border border-[#7042f861] bg-[#0300145e] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
+            <a href="#about-me" className="cursor-pointer hover:underline">
               About
             </a>
-            <a href="#skills" className="cursor-pointer">
+            <a href="#skills" className="cursor-pointer hover:underline">
               Skills
             </a>
-            <a href="#certifications" className="cursor-pointer">
+            <a href="#certifications" className="cursor-pointer hover:underline">
               Certifications
             </a>
-            <a href="#projects" className="cursor-pointer">
+            <a href="#projects" className="cursor-pointer hover:underline">
               Projects
             </a>
-            <a href="#certifications" className="cursor-pointer">
+            <a href="#certifications" className="cursor-pointer hover:underline">
               Experience
             </a>
           </div>

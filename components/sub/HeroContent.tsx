@@ -14,7 +14,7 @@ const HeroContent = () => {
     <motion.div
       initial="hidden"
       animate="visible"
-      className="flex md:flex-row flex-col-reverse items-center justify-center px-20  2xl:mt-[55vh] w-full z-[20]"
+      className="flex md:flex-row flex-col-reverse items-center justify-center px-20 xl:mt-[5vh] w-full z-[20]"
     >
       <div className="h-full w-full flex  p-10 flex-col gap-5 justify-center m-auto text-start">
         
@@ -49,7 +49,7 @@ const HeroContent = () => {
 
         <motion.p
           variants={slideInFromLeft(0.8)}
-          className="text-lg text-gray-400 my-5 max-w-[500px]"
+          className="text-lg text-gray-400 my-5 max-w-[500px] text-justify"
         >
           I&apos;m an undergraduate passionate about technology, I am actively pursuing expertise in cloud architecture, cybersecurity, and penetration testing. I am driven to address complex challenges in these fields, striving to enhance system security and efficiency through innovative solutions.
 

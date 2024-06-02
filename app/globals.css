@@ -64,7 +64,15 @@
   display: none;
 }
 
-
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection{
+  background-color: #470161;
+  color: white;
+}
 
 html {
   scroll-behavior: smooth;
