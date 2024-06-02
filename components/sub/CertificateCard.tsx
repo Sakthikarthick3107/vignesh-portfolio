@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import { CertificateType } from './CertificateData';
 
 const slideInVariants = {
   hidden: { y: 50, opacity: 0 },
@@ -6,7 +7,7 @@ const slideInVariants = {
   hover: { textDecoration: "underline"  }    
 };
 
-const CertificationCard = ({ certificate }) => (
+const CertificationCard = ({ certificate } : {certificate : CertificateType}) => (
   <motion.div
     //whileHover={{ scale: 1.05 }} // Scale the card slightly when hovered
     className="w-full hover:border-[#2a0e61] p-4 rounded-md flex flex-col text-white cursor-pointer"
